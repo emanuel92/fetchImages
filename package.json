@@ -1,0 +1,18 @@
+{
+  "name": "fetchimages",
+  "version": "1.0.0",
+  "description": "CLI application to download product images from links",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "type": "module",
+  "author": "Emanuel Wille",
+  "license": "ISC",
+  "dependencies": {
+    "fetch": "^1.1.0",
+    "fs": "0.0.1-security",
+    "node-fetch": "^2.6.1"
+  }
+}
